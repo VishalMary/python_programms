@@ -1,0 +1,9 @@
+def fa(x):
+    if(x==0):
+        return 0
+    return x+fa(x-2)
+n=15
+if(n%2==0):
+    print(fa(n))
+else:
+    print(fa(n-1))
